@@ -1,4 +1,15 @@
-# Michigan Crime, Michigan Unemployment, MI Population, US Population  Datasets
-The first question we analyzed was looking into how Michigan’s unemployment rates affect Michigan’s crime rate. We wanted to explore if there is any relationship/association between these two variables. This is an important question because if there is a relationship between Michigan’s unemployment and crime rates, this information can be used to develop policies that reduce crime and improve Michigan’s economic conditions. For example, if unemployment has a strong relationship with crime rates, then policies around job training programs and targeting reducing unemployment should be created. The results to this question can make it possible to reduce Michigan’s crime rates more effectively rather than by simply focusing on Michigan’s police force.
-To answer this question, we first used data on Michigan’s crime rates per 100k people and combined it with data on Michigan’s population to obtain the percentage of crime rates in Michigan throughout the years. Afterwards, we combined this data with data on Michigan’s unemployment rates from 1979 onwards. Next, we performed a linear regression on the data looking at how Michigan’s unemployment rate predicts the state’s crime rate. Likewise, we decided to do a simple correlation on these two variables to get further support regarding the strength of their relationship.
+# Dissecting Detroit 911 calls in a given month
+
+Provided code explores 911 calls in Detroit during March of 2023. Visualizations of different metrics are provided along with a logistic regression model and a geopandas representation different types of calls on a map of Detroit.
+
+Specifically, I was interested in looking into the question:  How do calls classified as “shotspotter” vs “shots fired” differ in the Detroit 911 calls Dataset? What conclusions can we make about Shotspotter?
+
+Why it matters?
+Shotspotter is a controversial technology installed in certain neighborhoods in Detroit that uses sensors to detect gunshots and immediately alert the police. The technology is criticized nationwide for being inaccurate. Visualizing the calls from Shotspotter vs calls about gunfire outside Shotspotter neighborhoods may give us insight into whether it is effective in Detroit.
+
+Approach to solving the question
+Use 911 calls  dataset and isolate call descriptions that are “Shotspotter” or “Shots Fired” 
+Map each instance of the categories on a map of Detroit using Geopandas
+Use the map to guide mathematical functions that supplement the map and give us a clearer idea of how the call categories differ. 
+
 
