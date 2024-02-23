@@ -13,7 +13,5 @@ Map each instance of the categories on a map of Detroit using Geopandas
 Use the map to guide mathematical functions that supplement the map and give us a clearer idea of how the call categories differ. 
 
 Finding: 
-857 calls from Shotspotter (11% of overall)
-617 “Shots Fired” (8% of overall)
-Time on scene is on average 1.46x higher for “Shots Fired” than Shotspotter 
+857 calls from Shotspotter (11% of overall), 617 “Shots Fired” (8% of overall), Time on scene is on average 1.46x higher for “Shots Fired” than Shotspotter 
 Need more data, but from this month, it is reasonable to conclude that Shotspotter went off more than it should have, giving credence to the growing belief that Shotspotter is ineffective at preventing gun related incidents in the city of Detroit
